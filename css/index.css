@@ -1,0 +1,269 @@
+.main {
+    margin-top: 10px;
+    margin-left: 220px;
+    width: 980px;
+    height: 455px;
+    background-color: #fff;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    padding: 0 15px;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.news-hd h5 {
+    font-size: 14px;
+    float: left;
+}
+
+.news-hd .more {
+    float: right;
+}
+
+.news-hd .more::after {
+    content: '\ea42';
+    font-family: 'icomoon';
+    margin-left: 5px;
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    /* 超出部分隐藏 */
+    overflow: hidden;
+    /* 文字一行显示 */
+    white-space: nowrap;
+    /* 超出部分省略号显示 */
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    /* 不需要上边框 */
+    border-top: 0;
+}
+
+.lifeservice ul {
+    /* 为了在ul里面一行能装4个li 但是ul会超出父盒子lifeservice 2px 所以父盒子用overflow hidden切除溢出部分 */
+    width: 252px;
+}
+
+.lifeservice ul li {
+    position: relative;
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li .discount {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+}
+
+.same1 {
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+
+.same2 {
+    background: url(../images/icons.png) no-repeat -80px -15px;
+}
+
+.same3 {
+    background: url(../images/icons.png) no-repeat -141px -15px;
+}
+
+.same4 {
+    background: url(../images/icons.png) no-repeat -205px -15px;
+}
+
+.same5 {
+    background: url(../images/icons.png) no-repeat -15px -85px;
+}
+
+.same6 {
+    background: url(../images/icons.png) no-repeat -78px -85px;
+}
+
+.same7 {
+    background: url(../images/icons.png) no-repeat -140px -85px;
+}
+
+.same8 {
+    background: url(../images/icons.png) no-repeat -206px -85px;
+}
+
+.same9 {
+    background: url(../images/icons.png) no-repeat -15px -157px;
+}
+
+.same10 {
+    background: url(../images/icons.png) no-repeat -78px -157px;
+}
+
+.same11 {
+    background: url(../images/icons.png) no-repeat -140px -157px;
+}
+
+.same12 {
+    background: url(../images/icons.png) no-repeat -207px -157px;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li img {
+    /* 防止图片太大 */
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+3):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+/* 家用电器模块 */
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+}
+
+.col_210 {
+    text-align: center;
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.bb {
+    /* 一般情况下 a如果包含有宽度的盒子 需要转为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}

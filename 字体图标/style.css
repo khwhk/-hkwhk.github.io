@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?1nlf1h');
+  src:  url('fonts/icomoon.eot?1nlf1h#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1nlf1h') format('truetype'),
+    url('fonts/icomoon.woff?1nlf1h') format('woff'),
+    url('fonts/icomoon.svg?1nlf1h#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-electron:before {
+  content: "\e900";
+  color: #47848f;
+}
+.icon-java:before {
+  content: "\e901";
+  color: #007396;
+}
+.icon-plex:before {
+  content: "\e903";
+}
+.icon-home3:before {
+  content: "\e902";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-circle-down:before {
+  content: "\ea43";
+}
+.icon-ctrl:before {
+  content: "\ea50";
+}
+.icon-font:before {
+  content: "\ea5c";
+}
+.icon-omega:before {
+  content: "\ea66";
+}
+.icon-section:before {
+  content: "\ea76";
+}
